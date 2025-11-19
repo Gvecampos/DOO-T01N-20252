@@ -201,7 +201,7 @@ public class Main {
                                 Utils.ordenaPorNome(user.getAssistidos(), "assistidas");
                                 Utils.ordenaPorNome(user.getFavoritos(), "favoritas");
                                 Utils.ordenaPorNome(user.getDesejos(), "series adicionada a desejos assistir");
-
+                                break;
                             }
 
                             case "2" : {
@@ -209,7 +209,7 @@ public class Main {
                                 Utils.ordenaPorNota(user.getFavoritos(), "favoritas");
                                 Utils.ordenaPorNota(user.getDesejos(), "series adicionada a desejos assistir");
 
-
+                                break;
 
                             }
 
@@ -218,7 +218,7 @@ public class Main {
                             Utils.ordenaPorEstado(user.getAssistidos(), "Assistidas");
                             Utils.ordenaPorEstado(user.getFavoritos(), "favoritas");
                             Utils.ordenaPorEstado(user.getDesejos(), "series adicionada a desejos assistir");
-                            
+                            break;
 
                         }
 
@@ -226,10 +226,11 @@ public class Main {
                             Utils.ordenaPorEstreia(user.getAssistidos(), "Assistidas" );
                             Utils.ordenaPorEstreia(user.getFavoritos(), "favoritas");
                             Utils.ordenaPorEstreia(user.getDesejos(), "series adicionada a desejos assistir");
+                            break;
                         }
 
                         case "5": {
-                            break menuOrdenacao; // Volta para o menu principal
+                            break menuOrdenacao; // Volta para o menu principal 
                         }
 
                         }
